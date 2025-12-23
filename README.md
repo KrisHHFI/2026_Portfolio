@@ -35,7 +35,8 @@ The site was made for both desktop and mobile. On desktop the keyboard buttons c
 
 <br/>
 
-Using AI, a persons face can be used maliciously against them. Due to this, by default I have censored my subjects faces. Uncensored images are hidden behind a sign-in feature.
+- Using AI, a persons face can be used maliciously against them. Due to this, by default I have censored my subjects faces. Uncensored images are hidden behind a sign-in feature.
+- Security headers have been added to try and everyday threats.
 
 </details>
 
