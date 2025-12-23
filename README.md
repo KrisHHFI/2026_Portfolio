@@ -35,8 +35,13 @@ The site was made for both desktop and mobile. On desktop the keyboard buttons c
 
 <br/>
 
+### Security Headers
+
+- Security headers have been added to try and mitigate everyday threats.
+
+### Sign-in
+
 - Using AI, a persons face can be used maliciously against them. Due to this, by default I have censored my subjects faces. Uncensored images are hidden behind a sign-in feature.
-- Security headers have been added to try and everyday threats.
 
 </details>
 
@@ -55,4 +60,12 @@ The site was made for both desktop and mobile. On desktop the keyboard buttons c
 
 </details>
 
+<details><summary>UI</summary>
+
 <br/>
+
+### Bespoke Components
+
+All the components in my project were made by me and AI to fulfill my project requirements.
+
+</details>
