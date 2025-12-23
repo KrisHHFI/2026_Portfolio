@@ -6,11 +6,28 @@ Check out my portfolio [site](https://portfolio-2a913.web.app/)!
 
 # About ✨
 
-I made a new portfolio site to show some of my photography and coding work. I have also featured some design. Stay tuned for more content!
+I made a new portfolio site to show some of my photography, coding and design work. Stay tuned for more content!
 
 <br/>
 
 # More Info ⭐
+
+### Technology
+
+<details><summary></summary>
+
+| Category        | Tools / Services        |
+|-----------------|-------------------------|
+| AI Assistance   | GitHub Copilot          |
+| Framework       | Next.js                 |
+| Hosting         | Firebase     |
+| Language        | TypeScript              |
+| Styling         | CSS                     |
+
+</details>
+
+<br/>
+
 
 ### Mobile and Desktop Accessibility 📱💻 
 
