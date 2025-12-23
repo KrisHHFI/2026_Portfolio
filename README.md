@@ -4,34 +4,15 @@ Check out my portfolio [site](https://portfolio-2a913.web.app/)!
 
 <br/>
 
-# About
+# Intro
 
 I made a new portfolio site to show some of my photography, coding and design work. Stay tuned for more content!
 
 <br/>
 
-# More Info
+# Contents
 
-### Technology
-
-<details><summary></summary>
-
-| Category        | Tools / Services        |
-|-----------------|-------------------------|
-| AI Assistance   | GitHub Copilot          |
-| Framework       | Next.js                 |
-| Hosting         | Firebase     |
-| Language        | TypeScript              |
-| Styling         | CSS                     |
-
-</details>
-
-<br/>
-
-
-### Mobile and Desktop Accessibility 📱💻 
-
-<details><summary></summary>
+<details><summary>Accessibility</summary>
 
 <br/>
 
@@ -48,3 +29,29 @@ The site was made for both desktop and mobile. On desktop the keyboard buttons c
 <sub><i>Video showing the site on mobile (emulator), with swiping in use</i></sub>
 
 </details>
+
+
+<details><summary>Security</summary>
+
+<br/>
+
+Using AI, a persons face can be used maliciously against them. Due to this, by default I have censored my subjects faces. Uncensored images are hidden behind a sign-in feature.
+
+</details>
+
+
+<details><summary>Technology</summary>
+
+<br/>
+
+| Category        | Tools / Services        |
+|-----------------|-------------------------|
+| AI Assistance   | GitHub Copilot          |
+| Framework       | Next.js                 |
+| Hosting         | Firebase     |
+| Language        | TypeScript              |
+| Styling         | CSS                     |
+
+</details>
+
+<br/>
