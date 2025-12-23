@@ -6,7 +6,7 @@ Check out my portfolio [site](https://portfolio-2a913.web.app/)!
 
 # Intro
 
-I made a new portfolio site to show some of my photography, coding and design work. Stay tuned for more content!
+I made a new portfolio site to show some of my **photography**, **coding** and **design** work. Stay tuned for more content!
 
 <br/>
 
