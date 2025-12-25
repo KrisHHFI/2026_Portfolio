@@ -12,6 +12,17 @@ I made a new portfolio site to show some of my **photography**, **coding** and *
 
 # Contents
 
+<details><summary>AI</summary>
+
+<br/>
+
+### Test writing
+
+- I used Co-Pilot to write the tests and achieve high coverage.
+<img src="co-pilot-test-screenshot.png"/>
+
+</details>
+
 <details><summary>Accessibility</summary>
 
 <br/>
