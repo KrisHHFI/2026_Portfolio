@@ -1,95 +1,102 @@
 # 2026 Portfolio
 
-Check out my portfolio [site](https://portfolio-2a913.web.app/)!
+Check out my portfolio site:  
+https://portfolio-2a913.web.app/
 
-<br/>
+---
 
-# Intro
+## Table of Contents
 
-I made a new portfolio site to show some of my **photography**, **coding** and **design** work.
+- [Intro](#intro)
+- [AI](#ai)
+  - [Test Writing](#test-writing)
+- [Accessibility](#accessibility)
+  - [Keyboard Controls](#keyboard-controls)
+  - [Mobile Accessibility](#mobile-accessibility)
+- [Security](#security)
+  - [Security Headers](#security-headers)
+  - [Sign-in](#sign-in)
+- [Technology](#technology)
+- [Tests](#tests)
+  - [Jest](#jest)
+- [UI](#ui)
+  - [Bespoke Components](#bespoke-components)
 
-<br/>
+---
 
-# Contents
+## Intro
 
-<details><summary>AI</summary>
+I made a new portfolio site to showcase my **photography**, **coding**, and **design** work.  
+The project emphasizes accessibility, security, and clean, maintainable code.
 
-<br/>
+---
 
-### Test writing
+## AI
 
-- I used Co-Pilot to write the tests and achieve high coverage.
+### Test Writing
+
+- GitHub Copilot was used to assist in writing tests and achieving high code coverage.
+
 <img src="co-pilot-test-screenshot.png"/>
 
-</details>
+---
 
-<details><summary>Accessibility</summary>
+## Accessibility
 
-<br/>
+### Keyboard Controls
 
-### Keyboard controls
+The site supports full keyboard navigation, ensuring smooth and accessible interactions for users who rely on keyboard input.
 
-The site works with keyboard actions to make the navigation and interactions much more fluid.
+**Desktop experience:**  
+https://private-user-images.githubusercontent.com/98150294/529599251-ab882cd4-b776-42f3-a216-713162b9e9ce.mov
 
-[Desktop experience](https://private-user-images.githubusercontent.com/98150294/529599251-ab882cd4-b776-42f3-a216-713162b9e9ce.mov?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY0ODQzOTgsIm5iZiI6MTc2NjQ4NDA5OCwicGF0aCI6Ii85ODE1MDI5NC81Mjk1OTkyNTEtYWI4ODJjZDQtYjc3Ni00MmYzLWEyMTYtNzEzMTYyYjllOWNlLm1vdj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjIzVDEwMDEzOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk3OTRhMTc0N2Q0YWE1YTYyYzIyMzA5OTc2ZWRiNmZiNjdkNDAwZmUwOTQ1OGU0MzgxODRiMDk4ODczYjE2YTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ncbvlNVpkREcVxtwHK4k34wm__-meSR2l-wlg1CT0yU)
+### Mobile Accessibility
 
-<br/>
+- The carousel supports natural swipe gestures on mobile devices.
+- The layout is fully responsive across mobile portrait/landscape, tablets, and widescreen displays.
 
-### Mobile accessible
+**Mobile experience:**  
+https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c055-474c-9572-726794ede486.mov
 
-- The site's carousel can be swiped on mobile. Swiping is natural and efficient for mobile users.
-- Every page was made to work on mobile portrait/landscape, tablet and all the way up to wide screen computers. 
+---
 
-[https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c055-474c-9572-726794ede486.mov?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY1MjAzNDIsIm5iZiI6MTc2NjUyMDA0MiwicGF0aCI6Ii85ODE1MDI5NC81Mjk3OTE0OTEtM2JkYmJmYzQtYzA1NS00NzRjLTk1NzItNzI2Nzk0ZWRlNDg2Lm1vdj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjIzVDIwMDA0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg2YThhODM5ZTc3NzQwYjFkOGMzN2NkYWQ4MWE0OTZjM2EwNThiMjJlMjkwYTFlODE2YmZlYTdkZWFmZTExZTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-xfh97VcSBPXvB7VkX2N7frdkytyCCK-oxAexE3RR-o](https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c055-474c-9572-726794ede486.mov?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY1MjAzNDIsIm5iZiI6MTc2NjUyMDA0MiwicGF0aCI6Ii85ODE1MDI5NC81Mjk3OTE0OTEtM2JkYmJmYzQtYzA1NS00NzRjLTk1NzItNzI2Nzk0ZWRlNDg2Lm1vdj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjIzVDIwMDA0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTg2YThhODM5ZTc3NzQwYjFkOGMzN2NkYWQ4MWE0OTZjM2EwNThiMjJlMjkwYTFlODE2YmZlYTdkZWFmZTExZTkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.-xfh97VcSBPXvB7VkX2N7frdkytyCCK-oxAexE3RR-o)
-
-</details>
-
-
-<details><summary>Security</summary>
-
-<br/>
+## Security
 
 ### Security Headers
 
-- Security headers have been added to try and mitigate everyday threats.
+- Security headers are implemented to help mitigate common web-based threats.
 
 ### Sign-in
 
-- Using AI, a persons face can be used maliciously against them. Due to this, by default I have censored my subjects faces. Uncensored images are hidden behind a sign-in feature.
+- Due to the risk of AI misuse of facial data, subjects’ faces are censored by default.
+- Uncensored images are protected behind a sign-in feature.
 
-</details>
+---
 
+## Technology
 
-<details><summary>Technology</summary>
+| Category      | Tools / Services |
+|---------------|------------------|
+| AI Assistance | GitHub Copilot   |
+| Framework     | Next.js          |
+| Hosting       | Firebase         |
+| Language      | TypeScript       |
+| Styling       | CSS              |
 
-<br/>
+---
 
-| Category        | Tools / Services        |
-|-----------------|-------------------------|
-| AI Assistance   | GitHub Copilot          |
-| Framework       | Next.js                 |
-| Hosting         | Firebase     |
-| Language        | TypeScript              |
-| Styling         | CSS                     |
-
-</details>
-
-<details><summary>Tests</summary>
+## Tests
 
 ### Jest
 
-In this project Jest is in use to try and maintin the code quality and functionality.
+Jest is used to maintain code quality and verify application functionality.
 
 <img src="test-coverage.png" height="600px"/>
 
-</details>
+---
 
-<details><summary>UI</summary>
-
-<br/>
+## UI
 
 ### Bespoke Components
 
-All the components in my project were made by me and AI to fulfill my project requirements.
-
-</details>
+All UI components were custom-built by me, with selective AI assistance, to meet the project’s specific requirements.
