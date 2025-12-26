@@ -9,23 +9,24 @@ https://portfolio-2a913.web.app/
 
 1. **[1. Intro](#1-intro)**
 
-2. **[2. AI](#2-ai)**  
-   2.1 [Test Writing](#21-test-writing)
+2. **[2. AI](#2-ai)**   
+   2.1 [Agents Markdown File](#21-agents-markdown-file)   
+   2.2 [Test Writing](#22-test-writing)
 
-3. **[3. Accessibility](#3-accessibility)**  
+4. **[3. Accessibility](#3-accessibility)**  
    3.1 [Keyboard Controls](#31-keyboard-controls)  
    3.2 [Mobile Accessibility](#32-mobile-accessibility)
 
-4. **[4. Security](#4-security)**  
+5. **[4. Security](#4-security)**  
    4.1 [Security Headers](#41-security-headers)  
    4.2 [Sign-in](#42-sign-in)
 
-5. **[5. Technology](#5-technology)**
+6. **[5. Technology](#5-technology)**
 
-6. **[6. Tests](#6-tests)**  
+7. **[6. Tests](#6-tests)**  
    6.1 [Jest](#61-jest)
 
-7. **[7. UI](#7-ui)**  
+8. **[7. UI](#7-ui)**  
    7.1 [Bespoke Components](#71-bespoke-components)
 
 ---
@@ -39,7 +40,14 @@ The project emphasizes accessibility, security, and clean, maintainable code.
 
 ## 2. AI
 
-### 2.1 Test Writing
+### 2.1 Agents Markdown File
+
+- An agents.md file has been created to help make the agent interactions smoother and more efficicent.
+
+<img src="agents-md-file.png" height="600px" alt="Jest test coverage report"/>
+
+
+### 2.2 Test Writing
 
 - GitHub Copilot was used to assist in writing tests and achieving high code coverage.
 
