@@ -7,64 +7,64 @@ https://portfolio-2a913.web.app/
 
 ## Table of Contents
 
-1. **[1. Intro](#1-intro)**
-
-2. **[2. AI](#2-ai)**   
-   2.1 [Agents Markdown File](#21-agents-markdown-file)   
-   2.2 [Test Writing](#22-test-writing)
-
-4. **[3. Accessibility](#3-accessibility)**  
-   3.1 [Keyboard Controls](#31-keyboard-controls)  
-   3.2 [Mobile Accessibility](#32-mobile-accessibility)
-
-5. **[4. Security](#4-security)**  
-   4.1 [Security Headers](#41-security-headers)  
-   4.2 [Sign-in](#42-sign-in)
-
-6. **[5. Technology](#5-technology)**
-
-7. **[6. Tests](#6-tests)**  
-   6.1 [Jest](#61-jest)
-
-8. **[7. UI](#7-ui)**  
-   7.1 [Bespoke Components](#71-bespoke-components)
+1. [Intro](#1-intro)  
+2. [AI](#2-ai)  
+3. [Accessibility](#3-accessibility)  
+4. [Security](#4-security)  
+5. [Technology](#5-technology)  
+6. [Tests](#6-tests)  
+7. [UI](#7-ui)
 
 ---
 
 ## 1. Intro
 
+<details>
+<summary><strong>Overview</strong></summary>
+
 I made a new portfolio site to showcase my **photography**, **coding**, and **design** work.  
 The project emphasizes accessibility, security, and clean, maintainable code.
+
+</details>
 
 ---
 
 ## 2. AI
 
-### 2.1 Agents Markdown File
+<details>
+<summary><strong>2.1 Agents Markdown File</strong></summary>
 
-- An agents.md file has been created to help make the agent interactions smoother and more efficicent.
+- An `agents.md` file has been created to help make agent interactions smoother and more efficient.
 
-<img src="agents-md-file.png" height="600px" alt="Jest test coverage report"/>
+<img src="agents-md-file.png" height="600px" alt="Agents markdown file" />
 
+</details>
 
-### 2.2 Test Writing
+<details>
+<summary><strong>2.2 Test Writing</strong></summary>
 
 - GitHub Copilot was used to assist in writing tests and achieving high code coverage.
 
-<img src="co-pilot-test-screenshot.png" alt="GitHub Copilot test coverage screenshot"/>
+<img src="co-pilot-test-screenshot.png" alt="GitHub Copilot test coverage screenshot" />
+
+</details>
 
 ---
 
 ## 3. Accessibility
 
-### 3.1 Keyboard Controls
+<details>
+<summary><strong>3.1 Keyboard Controls</strong></summary>
 
 The site supports full keyboard navigation, ensuring smooth and accessible interactions for users who rely on keyboard input.
 
 **Desktop experience:**  
 https://private-user-images.githubusercontent.com/98150294/529599251-ab882cd4-b776-42f3-a216-713162b9e9ce.mov
 
-### 3.2 Mobile Accessibility
+</details>
+
+<details>
+<summary><strong>3.2 Mobile Accessibility</strong></summary>
 
 - The carousel supports natural swipe gestures on mobile devices.
 - The layout is fully responsive across mobile portrait/landscape, tablets, and widescreen displays.
@@ -72,22 +72,33 @@ https://private-user-images.githubusercontent.com/98150294/529599251-ab882cd4-b7
 **Mobile experience:**  
 https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c055-474c-9572-726794ede486.mov
 
+</details>
+
 ---
 
 ## 4. Security
 
-### 4.1 Security Headers
+<details>
+<summary><strong>4.1 Security Headers</strong></summary>
 
 - Security headers are implemented to help mitigate common web-based threats.
 
-### 4.2 Sign-in
+</details>
+
+<details>
+<summary><strong>4.2 Sign-in</strong></summary>
 
 - Due to the risk of AI misuse of facial data, subjects’ faces are censored by default.
 - Uncensored images are protected behind a sign-in feature.
 
+</details>
+
 ---
 
 ## 5. Technology
+
+<details>
+<summary><strong>Tech Stack</strong></summary>
 
 | Category      | Tools / Services |
 |---------------|------------------|
@@ -97,20 +108,28 @@ https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c0
 | Language      | TypeScript       |
 | Styling       | CSS              |
 
+</details>
+
 ---
 
 ## 6. Tests
 
-### 6.1 Jest
+<details>
+<summary><strong>6.1 Jest</strong></summary>
 
 Jest is used to maintain code quality and verify application functionality.
 
-<img src="test-coverage.png" height="600px" alt="Jest test coverage report"/>
+<img src="test-coverage.png" height="600px" alt="Jest test coverage report" />
+
+</details>
 
 ---
 
 ## 7. UI
 
-### 7.1 Bespoke Components
+<details>
+<summary><strong>7.1 Bespoke Components</strong></summary>
 
 All UI components were custom-built by me, with selective AI assistance, to meet the project’s specific requirements.
+
+</details>
