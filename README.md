@@ -74,6 +74,16 @@ The site works with keyboard actions to make the navigation and interactions muc
 
 </details>
 
+<details><summary>Tests</summary>
+
+### Jest
+
+In this project Jest is in use to try and maintin the code quality and functionality.
+
+<img src="test-coverage.png" height="600px"/>
+
+</details>
+
 <details><summary>UI</summary>
 
 <br/>
