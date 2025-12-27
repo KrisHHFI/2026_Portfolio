@@ -21,7 +21,7 @@ https://portfolio-2a913.web.app/
 ## 1. Intro
 
 <details>
-<summary><strong>Overview</strong></summary>
+<summary><strong>1.1 Overview</strong></summary>
 
 I made a new portfolio site to showcase my **photography**, **coding**, and **design** work. The site is a simple carousel which can handle both images and TSX. The active gallery dictates the current content populating the carousel. The active gallery can be changed via the menu. New portfolio content can be added by adding images and a single line of code.
 
@@ -81,7 +81,7 @@ https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c0
 ## 4. Git Hook Manager
 
 <details>
-<summary><strong>Commit Tests</strong></summary>
+<summary><strong>4.1 Commit Tests</strong></summary>
 
 I used Husky to run "npm test" whenever I try to "commit" my work. If the tests fail then the commit does too. With this I have tried to reduce the chance of pushing breaking code.
 
@@ -94,14 +94,14 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 ## 5. Security
 
 <details>
-<summary><strong>4.1 Security Headers</strong></summary>
+<summary><strong>5.1 Security Headers</strong></summary>
 
 - Security headers are implemented to help mitigate common web-based threats.
 
 </details>
 
 <details>
-<summary><strong>4.2 Sign-in</strong></summary>
+<summary><strong>5.2 Sign-in</strong></summary>
 
 - Due to the risk of AI misuse of facial data, subjects’ faces are censored by default.
 - Uncensored images are protected behind a sign-in feature.
@@ -119,6 +119,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 |---------------|------------------|
 | AI Assistance | GitHub Copilot   |
 | Framework     | Next.js          |
+| Git Commit Manager     | Husky          |
 | Hosting       | Firebase         |
 | Language      | TypeScript       |
 | Styling       | CSS              |
@@ -132,7 +133,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 ## 7. Tests
 
 <details>
-<summary><strong>6.1 Jest</strong></summary>
+<summary><strong>7.1 Jest</strong></summary>
 
 Jest is used to maintain code quality and verify application functionality.
 
@@ -145,7 +146,7 @@ Jest is used to maintain code quality and verify application functionality.
 ## 8. UI
 
 <details>
-<summary><strong>7.1 Bespoke Components</strong></summary>
+<summary><strong>8.1 Bespoke Components</strong></summary>
 
 All UI components were custom-built by me, with selective AI assistance, to meet the project’s specific requirements.
 
