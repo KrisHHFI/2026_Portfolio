@@ -1,4 +1,4 @@
-# 1. 2026 Portfolio
+# 2026 Portfolio
 
 Check out my portfolio site!  
 https://portfolio-2a913.web.app/
@@ -9,11 +9,12 @@ https://portfolio-2a913.web.app/
 
 1. [Intro](#1-intro)  
 2. [Accessibility](#2-accessibility)  
-3. [AI](#3-ai)  
-4. [Security](#4-security)  
-5. [Technology](#5-technology)  
-6. [Tests](#6-tests)  
-7. [UI](#7-ui)
+3. [AI](#3-ai)
+4. [Git Hook Manager](#4-git-hook-manager)
+5. [Security](#5-security)  
+6. [Technology](#6-technology)  
+7. [Tests](#7-tests)  
+8. [UI](#8-ui)
 
 ---
 
@@ -72,6 +73,19 @@ https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c0
 - GitHub Copilot was used to assist in writing tests and achieving high code coverage.
 
 <img src="co-pilot-test-screenshot.png" alt="GitHub Copilot test coverage screenshot" />
+
+</details>
+
+---
+
+## 4. Git Hook Manager
+
+<details>
+<summary><strong>Commit Tests</strong></summary>
+
+I used Husky to run "npm test" whenever I try to "commit" my work. If the tests fail then the commit does too. With this I have tried to reduce the chance of pushing breaking code.
+
+<img src="git-hook-manager.gif" alt="Husky commit screenshot" />
 
 </details>
 
