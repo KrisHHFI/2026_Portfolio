@@ -1,6 +1,6 @@
 # 1. 2026 Portfolio
 
-Check out my portfolio site:  
+Check out my portfolio site!  
 https://portfolio-2a913.web.app/
 
 ---
@@ -22,8 +22,7 @@ https://portfolio-2a913.web.app/
 <details>
 <summary><strong>Overview</strong></summary>
 
-I made a new portfolio site to showcase my **photography**, **coding**, and **design** work.  
-The project emphasizes accessibility, security, and clean, maintainable code.
+I made a new portfolio site to showcase my **photography**, **coding**, and **design** work. The site is a simple carousel which can handle both images and TSX. The active gallery dictates the current content populating the carousel. The active gallery can be changed via the menu. New portfolio content can be added by adding images and a single line of code.
 
 </details>
 
