@@ -91,7 +91,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 4. Security
+## 5. Security
 
 <details>
 <summary><strong>4.1 Security Headers</strong></summary>
@@ -110,7 +110,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 5. Technology
+## 6. Technology
 
 <details>
 <summary><strong>Tech Stack</strong></summary>
@@ -129,7 +129,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 6. Tests
+## 7. Tests
 
 <details>
 <summary><strong>6.1 Jest</strong></summary>
@@ -142,7 +142,7 @@ Jest is used to maintain code quality and verify application functionality.
 
 ---
 
-## 7. UI
+## 8. UI
 
 <details>
 <summary><strong>7.1 Bespoke Components</strong></summary>
