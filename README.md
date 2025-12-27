@@ -109,6 +109,8 @@ https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c0
 | Hosting       | Firebase         |
 | Language      | TypeScript       |
 | Styling       | CSS              |
+| Testing       | Jest             |
+
 
 </details>
 
