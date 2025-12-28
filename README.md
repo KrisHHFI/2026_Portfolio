@@ -11,10 +11,11 @@ https://portfolio-2a913.web.app/
 2. [Accessibility](#2-accessibility)  
 3. [AI](#3-ai)
 4. [Git Hook Manager](#4-git-hook-manager)
-5. [Security](#5-security)  
-6. [Technology](#6-technology)  
-7. [Tests](#7-tests)  
-8. [UI](#8-ui)
+5. [Lint](#5-lint)
+6. [Security](#6-security)  
+7. [Technology](#7-technology)  
+8. [Tests](#8-tests)  
+9. [UI](#9-ui)
 
 ---
 
@@ -91,17 +92,30 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 5. Security
+## 5. Lint
 
 <details>
-<summary><strong>5.1 Security Headers</strong></summary>
+<summary><strong>5.1 Lint Flagging</strong></summary>
+
+I have enabled Lint flagging so that ESLint flags problems, errors and warnings in the code. I enabled this to try and keep the code quality high.
+
+<img src="lint-flagging.png" alt="Lint flagging screenshot" />
+
+</details>
+
+---
+
+## 6. Security
+
+<details>
+<summary><strong>6.1 Security Headers</strong></summary>
 
 - Security headers are implemented to help mitigate common web-based threats.
 
 </details>
 
 <details>
-<summary><strong>5.2 Sign-in</strong></summary>
+<summary><strong>6.2 Sign-in</strong></summary>
 
 - Due to the risk of AI misuse of facial data, subjects’ faces are censored by default.
 - Uncensored images are protected behind a sign-in feature.
@@ -110,10 +124,10 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 6. Technology
+## 7. Technology
 
 <details>
-<summary><strong>Tech Stack</strong></summary>
+<summary><strong>7.1 Tech Stack</strong></summary>
 
 | Category      | Tools / Services |
 |---------------|------------------|
@@ -122,6 +136,7 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 | Git Commit Manager     | Husky          |
 | Hosting       | Firebase         |
 | Language      | TypeScript       |
+| Lint     | ESLint          |
 | Styling       | CSS              |
 | Testing       | Jest             |
 
@@ -130,10 +145,10 @@ I used Husky to run "npm test" whenever I try to "commit" my work. If the tests 
 
 ---
 
-## 7. Tests
+## 8. Tests
 
 <details>
-<summary><strong>7.1 Jest</strong></summary>
+<summary><strong>8.1 Jest</strong></summary>
 
 Jest is used to maintain code quality and verify application functionality.
 
@@ -143,10 +158,10 @@ Jest is used to maintain code quality and verify application functionality.
 
 ---
 
-## 8. UI
+## 9. UI
 
 <details>
-<summary><strong>8.1 Bespoke Components</strong></summary>
+<summary><strong>9.1 Bespoke Components</strong></summary>
 
 All UI components were custom-built by me, with selective AI assistance, to meet the project’s specific requirements.
 
