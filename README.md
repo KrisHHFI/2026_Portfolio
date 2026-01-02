@@ -85,7 +85,12 @@ https://private-user-images.githubusercontent.com/98150294/529791491-3bdbbfc4-c0
 <details>
 <summary><strong>4.1 Microsoft Clarity</strong></summary>
 
-...
+In the project I'm using Microsoft Clarity to monitor traffic and understand how the users use my site. Does my site seem logical? What content are the users engaging with? Are there any components which are disfunctional or unclear to users? With Clarity I can try and find such answers.
+
+<img src="clarity-promo-1.png" height="400px" alt="clarity-promo image 1" />
+
+<img src="clarity-promo-2.png" height="400px" alt="clarity-promo image 2" />
+
 
 </details>
 
