@@ -91,6 +91,7 @@ In the project I'm using Microsoft Clarity to monitor traffic and understand how
 
 <img src="clarity-promo-2.png" height="400px" alt="clarity-promo image 2" />
 
+<img src="clarity-promo-3.png" height="400px" alt="clarity-promo image 3" />
 
 </details>
 
